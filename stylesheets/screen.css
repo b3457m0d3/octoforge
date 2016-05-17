@@ -1,8 +1,11 @@
 /*
-Error: File not found or cannot be read: /Users/b3457m4c/Dev/Github/octoforge/octopress/source/images/dotted-border.png
-        on line 2 of /Users/b3457m4c/Dev/Github/octoforge/octopress/sass/base/_theme.scss
-        from line 3 of /Users/b3457m4c/Dev/Github/octoforge/octopress/sass/_base.scss
-        from line 7 of /Users/b3457m4c/Dev/Github/octoforge/octopress/sass/screen.scss
+Error: File to import not found or unreadable: custom/colors.
+       Load paths:
+         Sass::Globbing::Importer
+         Compass::SpriteImporter
+         /Users/b3457m4c/Dev/Github/octoforge/octopress/sass
+         /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets
+        on line 4 of /Users/b3457m4c/Dev/Github/octoforge/octopress/sass/screen.scss
 
 1: @import "compass";
 2: @include global-reset;
@@ -11,42 +14,16 @@ Error: File not found or cannot be read: /Users/b3457m4c/Dev/Github/octoforge/oc
 5: @import "custom/fonts";
 6: @import "custom/layout";
 7: @import "base";
+8: @import "partials";
+9: @import "plugins/**\/*";
 
 Backtrace:
-/Users/b3457m4c/Dev/Github/octoforge/octopress/sass/base/_theme.scss:2
-/Users/b3457m4c/Dev/Github/octoforge/octopress/sass/_base.scss:3
-/Users/b3457m4c/Dev/Github/octoforge/octopress/sass/screen.scss:7
-/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/lib/compass/core/sass_extensions/functions/inline_image.rb:60:in `data'
-/Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/lib/compass/core/sass_extensions/functions/inline_image.rb:6:in `inline_image'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/funcall.rb:143:in `_perform'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:471:in `visit_variable'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `block in with_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `with_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `block in with_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `with_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+/Users/b3457m4c/Dev/Github/octoforge/octopress/sass/screen.scss:4
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
@@ -86,4 +63,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File not found or cannot be read: /Users/b3457m4c/Dev/Github/octoforge/octopress/source/images/dotted-border.png\A         on line 2 of /Users/b3457m4c/Dev/Github/octoforge/octopress/sass/base/_theme.scss\A         from line 3 of /Users/b3457m4c/Dev/Github/octoforge/octopress/sass/_base.scss\A         from line 7 of /Users/b3457m4c/Dev/Github/octoforge/octopress/sass/screen.scss\A \A 1: @import \"compass\";\A 2: @include global-reset;\A 3: \A 4: @import \"custom/colors\";\A 5: @import \"custom/fonts\";\A 6: @import \"custom/layout\";\A 7: @import \"base\";"; }
+  content: "Error: File to import not found or unreadable: custom/colors.\A        Load paths:\A          Sass::Globbing::Importer\A          Compass::SpriteImporter\A          /Users/b3457m4c/Dev/Github/octoforge/octopress/sass\A          /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets\A         on line 4 of /Users/b3457m4c/Dev/Github/octoforge/octopress/sass/screen.scss\A \A 1: @import \"compass\";\A 2: @include global-reset;\A 3: \A 4: @import \"custom/colors\";\A 5: @import \"custom/fonts\";\A 6: @import \"custom/layout\";\A 7: @import \"base\";\A 8: @import \"partials\";\A 9: @import \"plugins/**/*\";"; }
